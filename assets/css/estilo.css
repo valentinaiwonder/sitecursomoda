@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 { 
+    color:crimson;
+}
+
+.banner {
+    width: 400px;
+    height: 300px;
+    background-color:coral;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    background-image: url(../img/sanrio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner h2 {
+    color:aliceblue;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        color:blue;
+    }
+}
